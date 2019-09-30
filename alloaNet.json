@@ -1,0 +1,61 @@
+{
+    "Genesis": {
+        "NetworkName": "alloa",
+        "Wallets": [
+            {
+                "Name": "Wallet1",
+                "Stake": 99.99,
+                "Online": true
+            },
+            {
+                "Name": "Wallet2",
+                "Stake": 0.01,
+                "Online": true
+            },
+            {
+                "Name": "Wallet3",
+                "Stake": 0.01,
+                "Online": true
+            }
+            
+        ]
+    },
+    "Nodes": [
+        {
+            "Name": "RelayNode00",
+            "IsRelay": true,
+            "Wallets": [
+                {
+                    "Name": "Wallet1",
+                    "ParticipationOnly": false
+                }
+            ]
+        },
+        {
+            "Name": "Node01",
+            "Wallets": [
+                {
+                    "Name": "Wallet2",
+                    "ParticipationOnly": false
+                },
+                {
+                    "Name": "Wallet3",
+                    "ParticipationOnly": false
+                }
+            ]
+        },
+        {
+            "Name": "Node02",
+            "Wallets": [
+                {
+                    "Name": "Wallet4",
+                    "ParticipationOnly": false
+                },
+                {
+                    "Name": "Wallet5",
+                    "ParticipationOnly": false
+                }
+            ]
+        }
+    ]
+}
